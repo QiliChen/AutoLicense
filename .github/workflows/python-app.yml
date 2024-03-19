@@ -24,3 +24,8 @@ jobs:
 
     - name: Run script
       run: python AutoJetBrainsLicense.py
+      
+    - name: Commit Changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Automated Update
