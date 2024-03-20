@@ -3,7 +3,8 @@ name: Daily Update Workflow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * *'  # 每天 UTC 时间 18 点运行
+    - cron: '0 2,14 * * *'  # 每天的 UTC 时间 2 点和 14 点运行，对应 UTC+8 时间的 10 点和 22 点
+
 
 jobs:
   update-job:
