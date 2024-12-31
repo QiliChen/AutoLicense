@@ -35,12 +35,10 @@ def readHtml():
 
     return unique_values
 
-
 def writeDoc(licenses):
     with open('JetBrainsLicense.txt', 'w', encoding='utf-8') as file:
         for license in licenses:
             file.write(license + '\n')
-
 
 if __name__ == '__main__':
     licenses = readHtml()
