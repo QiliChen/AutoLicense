@@ -1,0 +1,12 @@
+{
+  "target_url": "https://www.idejihuo.com/",
+  "output_file": "JetBrainsLicense.txt",
+  "timeout": 30,
+  "max_retries": 3,
+  "retry_delay": 1,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+  "log_level": "INFO",
+  "log_file": "crawler.log",
+  "validate_licenses": true,
+  "min_license_length": 10
+}
